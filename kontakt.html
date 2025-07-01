@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="mk">
+<head>
+    <meta charset="UTF-8" />
+    <title>Контакт</title>
+    <link rel="stylesheet" href="da.css" />
+</head>
+<body>
+    <header>
+        <h1>Контакт</h1>
+        <nav>
+            <ul>
+                <li><a href="bio.html">Биографија</a></li>
+                <li><a href="obrazovanie.html">Образование</a></li>
+                <li><a href="vestini.html">Вештини</a></li>
+                <li><a href="kontakt.html">Контакт</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="content">
+            <p>Може да ме контактирате на:</p>
+            <div class="contact-info">
+                <a href="mailto:kirilj77@gmail.com">kirilj77@gmail.com</a>
+            </div>
+            <div class="contact-info">
+                <span>+389 71 492 865</span>
+            </div>
+
+            <h2>Испрати порака</h2>
+            <form id="contactForm" >
+                <label for="name">Име</label>
+                <input type="text" id="name" name="name" required />
+
+                <label for="email">Е-пошта</label>
+                <input type="email" id="email" name="email" required />
+
+                <label for="message">Порака</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Испрати</button>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        © 2025 Кирил Јовановски
+    </footer>
+</body>
+</html>
